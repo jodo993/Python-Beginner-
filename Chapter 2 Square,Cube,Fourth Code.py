@@ -1,14 +1,11 @@
-# Allows for calling of the sqrt function
-from math import sqrt
-
 # Constant integer
-NUMBER = 5
+NUMBER = 10
 
 # Constant integer square, cube, and fourth
-square = sqrt(NUMBER)
+square = NUMBER * NUMBER
 print(square)
 
-cube = NUMBER ** 3
+cube = square * NUMBER
 print(cube)
 
 fourth = NUMBER ** 4
