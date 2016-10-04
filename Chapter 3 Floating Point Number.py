@@ -19,4 +19,4 @@ absoluteValue = float(absoluteValue)
 if absoluteValue < 1:
     print("Small")
 elif absoluteValue > 1000000:
-    print("Large")
+    print("Large") 
