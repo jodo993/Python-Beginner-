@@ -1,12 +1,12 @@
-# This program count the number of vowels in a word.
+# This program count the number of vowels in a string.
 
 # Main function defintion
 def main():
     # Ask user for input
     print("This program will tell you the vowels in a word.")
-    word = input("Please enter a word: ")
+    string = input("Please enter a word: ")
 
-    countVowels(word)   # Call countVowels function
+    countVowels(string)   # Call countVowels function
 
 # Finds the amount of vowels in the string
 # @param string - The string where vowel will be counted
