@@ -21,7 +21,7 @@ elif number < 1000000:
     print("This number has six digit.")
 elif number < 10000000:
     print("This number has seven digit.")
-elif number < 100000000:
+elif number < 100000000: 
     print("This number has eight digit.")
 elif number < 1000000000:
     print("This number has nine digit.")
