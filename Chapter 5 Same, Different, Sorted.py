@@ -13,28 +13,31 @@ def main():
 # @param x,y,z - numbers from user input
 # @return - print true if numbers are all the same
 def allTheSame(x,y,z):
+    same = True
     if x == y and x == z :
-        return print("True")
+        return print(same)
     else :
-        print("False")
+        print(not same)
 
 # Compare the numbers and return true if all same
 # @param x,y,z - numbers from user input
 # @return - print true if all numbers are different
 def allDifferent(x,y,z):
+    different = True
     if x != y and x != z and y != z :
-        return print("True")
+        return print(different)
     else :
-        return print("False")
+        return print(not different)
 
 # Compare the numbers and return true if sorted from least to greatest
 # @param x,y,z - numbers from user input
 # @return - print true or false if sorted or not sorted
 def sort(x,y,z) :
+    sort = True
     if x < y and x < z and y < z :
-        return print("True")
+        return print(sort)
     else :
-        return print("False")
+        return print(not sort)
 
 # Start the program
 main()
