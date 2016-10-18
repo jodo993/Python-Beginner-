@@ -1,6 +1,7 @@
 # This program will compare two lists and determine if they are the same or different
 
 def main():
+    
     firstList = []      # Create an empty list
     secondList = []
 
