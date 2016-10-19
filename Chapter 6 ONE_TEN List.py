@@ -10,25 +10,28 @@ def main() :
     data = list(ONE_TEN)                        # Put list in data
         
     print("The original data for all function is: ", ONE_TEN)
+    
     # Call swap function
     swapFirstLast(data)
-    print()
-    
     print("After swapping first and last: ", data)
     print()
-    
-    print("List after all even elements is turned to zero.")
+
+    data = list(ONE_TEN) 
     # Call replace zero function
+    print("List after all even elements is turned to zero.")
     replaceEvenToZero(data)
     print()
-    
-    print("The second largest number in the list is: ")
+
+    data = list(ONE_TEN) 
     # Call 2nd largest function
+
+    print("The second largest number in the list is: ")
     returnSecondLargest(data)
     print()
 
-    print("The list is in increasing order: ")
+    data = list(ONE_TEN) 
     # Call sort check function
+    print("The list is in increasing order: ")
     sortedInIncreasingOrder(data)
 
 # @param data - holds the list
