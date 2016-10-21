@@ -1,6 +1,8 @@
 word = input("Enter a word: ")
 
-for i in word:
-    word[i] = len(word)
+comma = ","
+
+for i in range(1, len(word)):
+    word = word + comma
 
 print(word)
