@@ -1,6 +1,6 @@
 # This program sells ticket and will continue until there are no tickets left
 
-tickets = 20    # Amount of tickets
+tickets = 20    # Amount of tickets to be sold
 
 print("There are currently ", tickets, "tickets remaining.")        # Prompt input
 cinemaTickets = int(input("Enter how many tickets you want: "))

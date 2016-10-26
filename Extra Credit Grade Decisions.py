@@ -36,5 +36,5 @@ elif grade == "D-":
     grade = D - EXTRA
 else:
     grade = F
-print("The numeric value is", grade)
+print("The numeric value is", grade)    # Display result
     

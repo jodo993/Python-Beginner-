@@ -13,4 +13,4 @@ elif hours > 40.00:                     # To find wage with overtime
     overPay = overHours * overSalary    # Find overtime pay
     pay = normalPay + overPay           # Total pay
 
-print("Total pay is: $", pay)
+print("Total pay is: $", pay)           # Display result

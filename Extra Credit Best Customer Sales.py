@@ -35,4 +35,5 @@ def nameOfBestCustomer(customers, sales):
             bestCustomer = customers[i]
             return print("The best customer is: ", customers[i])
         
+# Start program        
 main()
