@@ -1,12 +1,22 @@
-gradeCount = {"A": 8, "D": 3, "B": 15, "F": 2, "C": 6}
+# This program print all the keys, values, and key and value paris
+def main():
 
-print("Keys:")
-for key in gradeCount:
-    print(key)
+    # Starting dictionary
+    gradeCount = {"A": 8, "D": 3, "B": 15, "F": 2, "C": 6}
 
-print("Values:")
-valueList = []
-for value in gradeCount.values():
-    valueList.append(value)
-    print(value)
-print("All key & value pairs: ", gradeCount)
+    # Print the keys only
+    print("Keys:")
+    for key in gradeCount:
+        print(key)
+
+    # Print values only
+    print("Values:")
+    valueList = []
+    for value in gradeCount.values():
+        valueList.append(value)
+        print(value)
+    # Print both
+    print("All key & value pairs: ", gradeCount)
+
+# Start program
+main()
