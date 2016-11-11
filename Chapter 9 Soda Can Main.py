@@ -1,6 +1,7 @@
-from sodaCanClass import SodaCan
+# This program finds the volume and surface area of a Soda Can
+from sodaCanClass import SodaCan    # Get class SodaCan from file
 
-can = SodaCan(2,4)
+can = SodaCan(2,4)  # Create object can 
 
-print("volume", can.getVolume())
-print("surface area", can.getSurfaceArea())
+print("Volume:", can.getVolume())   # Find volume of can
+print("Surface Area:", can.getSurfaceArea())    # Find surface area of can
